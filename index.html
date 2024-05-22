@@ -1098,5 +1098,455 @@
 
     .testimonial-card {
       background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 36px;
+      position: relative;
+      transition: all 0.2s ease;
+    }
+
+    .testimonial-card:hover {
+      box-shadow: var(--shadow-lg);
+      border-color: var(--accent);
+    }
+
+    .testimonial-quote-mark {
+      font-size: 64px;
+      line-height: 1;
+      color: var(--accent);
+      opacity: 0.2;
+      font-family: Georgia, serif;
+      margin-bottom: -12px;
+    }
+
+    .testimonial-text {
+      font-size: 16px;
+      color: var(--text-secondary);
+      line-height: 1.75;
+      font-style: italic;
+      margin-bottom: 28px;
+    }
+
+    .testimonial-author {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .testimonial-avatar {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--accent), #60a5fa);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      font-weight: 700;
+      color: #fff;
+      flex-shrink: 0;
+      font-family: 'Sora', sans-serif;
+    }
+
+    .testimonial-author-info h4 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 2px;
+    }
+
+    .testimonial-author-info p {
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    /* ============================================
+       CONTACT SECTION
+    ============================================ */
+    #contact {
+      background: var(--bg-primary);
+    }
+
+    .contact-wrapper {
+      max-width: 720px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .contact-wrapper .section-label {
+      justify-content: center;
+    }
+
+    .contact-wrapper .section-label::before {
+      display: none;
+    }
+
+    .contact-wrapper::after {
+      display: none;
+    }
+
+    .contact-availability {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+      color: #16a34a;
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      padding: 8px 18px;
+      border-radius: 100px;
+      margin-bottom: 28px;
+    }
+
+    [data-theme="dark"] .contact-availability {
+      background: #052e16;
+      border-color: #166534;
+      color: #4ade80;
+    }
+
+    .contact-availability .dot {
+      width: 7px;
+      height: 7px;
+      background: #16a34a;
+      border-radius: 50%;
+      animation: pulse 2s infinite;
+    }
+
+    [data-theme="dark"] .contact-availability .dot {
+      background: #4ade80;
+    }
+
+    .contact-links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 40px;
+    }
+
+    .contact-link {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 24px;
+      background: var(--bg-card);
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius-md);
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--text-secondary);
+      transition: all 0.2s ease;
+    }
+
+    .contact-link:hover {
+      color: var(--accent);
+      border-color: var(--accent);
+      background: var(--accent-light);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .contact-link svg {
+      width: 20px;
+      height: 20px;
+      flex-shrink: 0;
+    }
+
+    .contact-message {
+      margin-top: 40px;
+      padding: 24px 32px;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      font-size: 15px;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      font-style: italic;
+    }
+
+    /* ============================================
+       FOOTER
+    ============================================ */
+    #footer {
+      background: var(--bg-secondary);
+      border-top: 1px solid var(--border);
+      padding: 40px 0;
+    }
+
+    .footer-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .footer-logo {
+      font-family: 'Sora', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .footer-logo span {
+      color: var(--accent);
+    }
+
+    .footer-copy {
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    .footer-nav {
+      display: flex;
+      gap: 20px;
+    }
+
+    .footer-nav a {
+      font-size: 13px;
+      color: var(--text-muted);
+      transition: color 0.15s;
+    }
+
+    .footer-nav a:hover {
+      color: var(--accent);
+    }
+
+    /* ============================================
+       RESPONSIVE
+    ============================================ */
+    @media (max-width: 1024px) {
+      .skills-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .projects-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .about-grid {
+        gap: 48px;
+      }
+
+      .experience-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+
+      .experience-sticky {
+        position: static;
+      }
+    }
+
+    @media (max-width: 768px) {
+      section {
+        padding: 72px 0;
+      }
+
+      .nav-links {
+        display: none;
+      }
+
+      .hamburger {
+        display: flex;
+      }
+
+      .about-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+
+      .skills-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .projects-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .testimonials-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-meta {
+        flex-wrap: wrap;
+        gap: 16px;
+      }
+
+      .hero-ctas {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .projects-header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .footer-inner {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .footer-nav {
+        justify-content: center;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 0 18px;
+      }
+
+      .contact-links {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ==================== NAVBAR ==================== -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav-inner">
+        <a href="#hero" class="nav-logo">Bassey<span>.</span></a>
+
+        <div class="nav-links" role="list">
+          <a href="#about" role="listitem">About</a>
+          <a href="#skills" role="listitem">Skills</a>
+          <a href="#projects" role="listitem">Projects</a>
+          <a href="#experience" role="listitem">Experience</a>
+          <a href="#contact" role="listitem">Contact</a>
+        </div>
+
+        <div class="nav-right">
+          <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">☀️</button>
+          <a href="#contact" class="btn btn-primary" style="padding: 9px 20px; font-size: 14px;">Hire Me</a>
+          <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+      <!-- Mobile menu -->
+      <div class="mobile-menu" id="mobile-menu" role="list">
+        <a href="#about" role="listitem">About</a>
+        <a href="#skills" role="listitem">Skills</a>
+        <a href="#projects" role="listitem">Projects</a>
+        <a href="#experience" role="listitem">Experience</a>
+        <a href="#contact" role="listitem">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==================== HERO ==================== -->
+  <section id="hero" aria-labelledby="hero-name">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="hero-bg-grid"></div>
+      <div class="hero-bg-grad g1"></div>
+      <div class="hero-bg-grad g2"></div>
+    </div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badges">
+          <div class="hero-badge">
+            <span class="dot"></span>
+            Available for Remote Work
+          </div>
+          <div class="hero-badge-location">
+            <span class="location-dot" aria-hidden="true"></span>
+            Nigeria
+          </div>
+        </div>
+
+        <h1 class="hero-name" id="hero-name">
+          Bassey<br /><span class="accent">Okon.</span>
+        </h1>
+
+        <p class="hero-headline">AI Workflow Builder & Remote Operations Specialist</p>
+
+        <p class="hero-subheading">
+          I design automation systems, lightweight web tools, and scalable workflows
+          that help startups move faster and operate smarter.
+        </p>
+
+        <div class="hero-ctas">
+          <a href="#projects" class="btn btn-primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="3" y="3" width="7" height="7" />
+              <rect x="14" y="3" width="7" height="7" />
+              <rect x="14" y="14" width="7" height="7" />
+              <rect x="3" y="14" width="7" height="7" />
+            </svg>
+            View My Projects
+          </a>
+          <a href="javascript:void(0)" class="btn btn-outline" onclick="alert('CV download coming soon!')"
+            aria-label="Download CV (coming soon)">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
+              <polyline points="7 10 12 15 17 10" />
+              <line x1="12" y1="15" x2="12" y2="3" />
+            </svg>
+            Download CV
+          </a>
+        </div>
+
+        <div class="hero-meta" aria-label="Quick stats">
+          <div class="hero-meta-item">
+            <strong>5+</strong>
+            <span>Projects Built</span>
+          </div>
+          <div class="hero-meta-divider" aria-hidden="true"></div>
+          <div class="hero-meta-item">
+            <strong>3+</strong>
+            <span>Years Experience</span>
+          </div>
+          <div class="hero-meta-divider" aria-hidden="true"></div>
+          <div class="hero-meta-item">
+            <strong>100%</strong>
+            <span>Remote-Ready</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT ==================== -->
+  <section id="about" aria-labelledby="about-title">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text fade-in">
+          <span class="section-label">About Me</span>
+          <h2 class="section-title" id="about-title">Systems thinker.<br />Remote professional.</h2>
+          <p>
+            I'm a <strong>Nigeria-based remote professional</strong> who specializes in the intersection
+            of AI tools, automation, and digital operations. My work focuses on helping startups and
+            growing teams eliminate manual friction and build infrastructure that scales.
+          </p>
+          <p>
+            I combine <strong>technical skill with strategic thinking</strong> — designing workflows,
+            building lightweight web tools, and integrating AI-assisted systems that reduce repetitive
+            work and surface better insights, faster.
+          </p>
+          <p>
+            I'm comfortable operating across time zones, communicating asynchronously, and delivering
+            results without hand-holding. <strong>Global remote teams are where I work best.</strong>
+          </p>
+        </div>
+
+        <div class="about-values fade-in fade-in-delay-2">
+          <div class="about-value-card">
+            <div class="about-value-icon" aria-hidden="true">⚡</div>
+            <div class="about-value-text">
+              <h4>Automation First</h4>
+              <p>I approach every process with a question: what can be systematized? Manual work is a bottleneck — I
+                build the bypass.</p>
+            </div>
+          </div>
 </body>
 </html>
