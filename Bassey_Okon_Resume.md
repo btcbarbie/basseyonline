@@ -1,7 +1,7 @@
 # Bassey Okon
 **Remote Operations Specialist | Technical Support | Workflow Integrator**
 
-**Email:** okon.basseym@gmail.com | **LinkedIn:** [linkedin.com/in/bassey-ekpenyong/](https://www.linkedin.com/in/bassey-ekpenyong/)
+**Email:** basseyekpenyong248@gmail.com | **LinkedIn:** [linkedin.com/in/bassey-ekpenyong/](https://www.linkedin.com/in/bassey-ekpenyong/)
 **Portfolio:** [btcbarbie.github.io/basseyonline](https://btcbarbie.github.io/basseyonline) | **GitHub:** [github.com/btcbarbie](https://github.com/btcbarbie)
 
 ---

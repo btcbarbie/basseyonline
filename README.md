@@ -39,6 +39,6 @@ Since this is a vanilla static site, no build steps or servers are required.
 
 ## 📬 Contact
 
-- **Email**: okon.basseym@gmail.com
+- **Email**: basseyekpenyong248@gmail.com
 - **LinkedIn**: [linkedin.com/in/bassey-okon-a8080a256](https://linkedin.com/in/bassey-okon-a8080a256)
 - **Twitter**: [@bassey___O](https://twitter.com/bassey___O)
