@@ -1,4 +1,4 @@
-# Bassey Okon | Portfolio Website
+# Bassey Ekpenyong | Portfolio Website
 
 A clean, responsive, and performance-optimized personal portfolio designed for a Remote Operations Specialist & AI Workflow Builder. This lightweight static site scores **98 on Lighthouse** and relies entirely on Semantic HTML5, CSS3, and Vanilla JavaScript—with **zero external framework dependencies**.
 
@@ -40,5 +40,5 @@ Since this is a vanilla static site, no build steps or servers are required.
 ## 📬 Contact
 
 - **Email**: basseyekpenyong248@gmail.com
-- **LinkedIn**: [linkedin.com/in/bassey-okon-a8080a256](https://linkedin.com/in/bassey-okon-a8080a256)
+- **LinkedIn**: [linkedin.com/in/bassey-ekpenyong](https://www.linkedin.com/in/bassey-ekpenyong/)
 - **Twitter**: [@bassey___O](https://twitter.com/bassey___O)

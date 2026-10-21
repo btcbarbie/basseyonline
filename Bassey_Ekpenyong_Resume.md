@@ -1,4 +1,4 @@
-# Bassey Okon
+# Bassey Ekpenyong
 **Remote Operations Specialist | Technical Support | Workflow Integrator**
 
 **Email:** basseyekpenyong248@gmail.com | **LinkedIn:** [linkedin.com/in/bassey-ekpenyong/](https://www.linkedin.com/in/bassey-ekpenyong/)
