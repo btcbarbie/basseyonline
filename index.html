@@ -1083,84 +1083,6 @@
     }
 
     /* ============================================
-       TESTIMONIALS SECTION
-    ============================================ */
-    #testimonials {
-      background: var(--bg-secondary);
-    }
-
-    .testimonials-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 24px;
-      margin-top: 56px;
-    }
-
-    .testimonial-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-lg);
-      padding: 36px;
-      position: relative;
-      transition: all 0.2s ease;
-    }
-
-    .testimonial-card:hover {
-      box-shadow: var(--shadow-lg);
-      border-color: var(--accent);
-    }
-
-    .testimonial-quote-mark {
-      font-size: 64px;
-      line-height: 1;
-      color: var(--accent);
-      opacity: 0.2;
-      font-family: Georgia, serif;
-      margin-bottom: -12px;
-    }
-
-    .testimonial-text {
-      font-size: 16px;
-      color: var(--text-secondary);
-      line-height: 1.75;
-      font-style: italic;
-      margin-bottom: 28px;
-    }
-
-    .testimonial-author {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-    }
-
-    .testimonial-avatar {
-      width: 44px;
-      height: 44px;
-      border-radius: 50%;
-      background: linear-gradient(135deg, var(--accent), #60a5fa);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 16px;
-      font-weight: 700;
-      color: #fff;
-      flex-shrink: 0;
-      font-family: 'Sora', sans-serif;
-    }
-
-    .testimonial-author-info h4 {
-      font-size: 15px;
-      font-weight: 600;
-      color: var(--text-primary);
-      margin-bottom: 2px;
-    }
-
-    .testimonial-author-info p {
-      font-size: 13px;
-      color: var(--text-muted);
-    }
-
-    /* ============================================
        CONTACT SECTION
     ============================================ */
     #contact {
@@ -1361,10 +1283,6 @@
       }
 
       .projects-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .testimonials-grid {
         grid-template-columns: 1fr;
       }
 
@@ -1983,59 +1901,6 @@
             </div>
           </div>
 
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ==================== TESTIMONIALS ==================== -->
-  <section id="testimonials" aria-labelledby="testimonials-title">
-    <div class="container">
-      <div class="fade-in" style="text-align:center; max-width:520px; margin: 0 auto;">
-        <span class="section-label" style="justify-content:center;">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" />
-          </svg>
-          What People Say
-        </span>
-        <style>
-          .section-label svg~span {
-            display: none;
-          }
-        </style>
-        <h2 class="section-title" id="testimonials-title" style="margin: 0 auto 16px;">Client testimonials.</h2>
-        <p class="section-subtitle" style="margin: 0 auto;">Feedback from founders and team leads I've worked with.</p>
-      </div>
-
-      <div class="testimonials-grid">
-        <div class="testimonial-card fade-in fade-in-delay-1">
-          <div class="testimonial-quote-mark" aria-hidden="true">"</div>
-          <p class="testimonial-text">Bassey completely transformed how our team handles content operations. She built
-            us a Notion + Zapier system that practically runs itself. I went from spending 3 hours a week on
-            coordination to less than 30 minutes. Her documentation is impeccable. We could onboard a new hire with
-            zero calls.</p>
-          <div class="testimonial-author">
-            <div class="testimonial-avatar" aria-hidden="true">JA</div>
-            <div class="testimonial-author-info">
-              <h4>James A.</h4>
-              <p>Founder, Early-Stage SaaS Startup · Remote</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="testimonial-card fade-in fade-in-delay-2">
-          <div class="testimonial-quote-mark" aria-hidden="true">"</div>
-          <p class="testimonial-text">I hired Bassey to audit and rebuild our internal ops workflow. She came back with
-            a full system map, identified every bottleneck, and had automations live within a week. She thinks like an
-            engineer but communicates like a strategist. Exactly what a lean remote team needs.</p>
-          <div class="testimonial-author">
-            <div class="testimonial-avatar" aria-hidden="true">SO</div>
-            <div class="testimonial-author-info">
-              <h4>Sarah O.</h4>
-              <p>Head of Operations, Remote-First Agency</p>
-            </div>
-          </div>
         </div>
       </div>
     </div>
